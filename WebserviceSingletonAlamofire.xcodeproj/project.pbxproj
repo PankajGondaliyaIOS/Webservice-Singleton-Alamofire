@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0355CD1DE31D3C002ACF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0355CC1DE31D3C002ACF45 /* AppDelegate.swift */; };
+		2C0355CF1DE31D3C002ACF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0355CE1DE31D3C002ACF45 /* ViewController.swift */; };
+		2C0355D21DE31D3C002ACF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0355D01DE31D3C002ACF45 /* Main.storyboard */; };
+		2C0355D41DE31D3C002ACF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0355D31DE31D3C002ACF45 /* Assets.xcassets */; };
+		2C0355D71DE31D3C002ACF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0355D51DE31D3C002ACF45 /* LaunchScreen.storyboard */; };
+		2C0355E31DE31FF6002ACF45 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0355E21DE31FF6002ACF45 /* NetworkManager.swift */; };
+		2C0549691DE5B9BA00ADAC9B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0549681DE5B9BA00ADAC9B /* String.swift */; };
+		2CE3F9E61DE44B130078B0A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F9E51DE44B130078B0A7 /* Constant.swift */; };
+		2CE3F9EA1DE44B830078B0A7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F9E91DE44B830078B0A7 /* Reachability.m */; };
+		2CE3F9EE1DE4808A0078B0A7 /* ProfileServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F9ED1DE4808A0078B0A7 /* ProfileServices.swift */; };
+		8BB8D8A5B27ED059DD0AA7A0 /* Pods_WebserviceSingletonAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C587EFD236670D0E85C71578 /* Pods_WebserviceSingletonAlamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0355C91DE31D3C002ACF45 /* WebserviceSingletonAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebserviceSingletonAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0355CC1DE31D3C002ACF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C0355CE1DE31D3C002ACF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C0355D11DE31D3C002ACF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C0355D31DE31D3C002ACF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C0355D61DE31D3C002ACF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C0355D81DE31D3C002ACF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C0355E21DE31FF6002ACF45 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2C0549681DE5B9BA00ADAC9B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2CE3F9E51DE44B130078B0A7 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2CE3F9E81DE44B830078B0A7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2CE3F9E91DE44B830078B0A7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2CE3F9EB1DE44BAD0078B0A7 /* WebserviceSingletonAlamofire-Bridiging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebserviceSingletonAlamofire-Bridiging-Header.h"; sourceTree = "<group>"; };
+		2CE3F9ED1DE4808A0078B0A7 /* ProfileServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileServices.swift; sourceTree = "<group>"; };
+		42ACE3C6846988C0F5CD17FA /* Pods-WebserviceSingletonAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebserviceSingletonAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebserviceSingletonAlamofire/Pods-WebserviceSingletonAlamofire.release.xcconfig"; sourceTree = "<group>"; };
+		621577253530C5174EA7064C /* Pods-WebserviceSingletonAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebserviceSingletonAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebserviceSingletonAlamofire/Pods-WebserviceSingletonAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		C587EFD236670D0E85C71578 /* Pods_WebserviceSingletonAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebserviceSingletonAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C0355C61DE31D3C002ACF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB8D8A5B27ED059DD0AA7A0 /* Pods_WebserviceSingletonAlamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C0355C01DE31D3C002ACF45 = {
+			isa = PBXGroup;
+			children = (
+				2C0355CB1DE31D3C002ACF45 /* WebserviceSingletonAlamofire */,
+				2C0355CA1DE31D3C002ACF45 /* Products */,
+				E2C01A21D44230BB8D079143 /* Pods */,
+				A5DCDEBACB07618381A83DED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C0355CA1DE31D3C002ACF45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C0355C91DE31D3C002ACF45 /* WebserviceSingletonAlamofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C0355CB1DE31D3C002ACF45 /* WebserviceSingletonAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2C0355E01DE31D8F002ACF45 /* ThirdParty */,
+				2C0355DE1DE31D8F002ACF45 /* Model */,
+				2C0355DF1DE31D8F002ACF45 /* NetworkManager */,
+				2C0355E11DE31D8F002ACF45 /* Utility */,
+				2C0355CC1DE31D3C002ACF45 /* AppDelegate.swift */,
+				2C0355CE1DE31D3C002ACF45 /* ViewController.swift */,
+				2C0355D01DE31D3C002ACF45 /* Main.storyboard */,
+				2C0355D31DE31D3C002ACF45 /* Assets.xcassets */,
+				2C0355D51DE31D3C002ACF45 /* LaunchScreen.storyboard */,
+				2C0355D81DE31D3C002ACF45 /* Info.plist */,
+				2CE3F9EB1DE44BAD0078B0A7 /* WebserviceSingletonAlamofire-Bridiging-Header.h */,
+			);
+			path = WebserviceSingletonAlamofire;
+			sourceTree = "<group>";
+		};
+		2C0355DE1DE31D8F002ACF45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C0355DF1DE31D8F002ACF45 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C0355E21DE31FF6002ACF45 /* NetworkManager.swift */,
+				2CE3F9EC1DE4806D0078B0A7 /* WebServices */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		2C0355E01DE31D8F002ACF45 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				2CE3F9E71DE44B830078B0A7 /* Reachability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		2C0355E11DE31D8F002ACF45 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2C0549671DE5B9B100ADAC9B /* Extension */,
+				2CE3F9E41DE44B130078B0A7 /* Constant */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2C0549671DE5B9B100ADAC9B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2C0549681DE5B9BA00ADAC9B /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2CE3F9E41DE44B130078B0A7 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2CE3F9E51DE44B130078B0A7 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		2CE3F9E71DE44B830078B0A7 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2CE3F9E81DE44B830078B0A7 /* Reachability.h */,
+				2CE3F9E91DE44B830078B0A7 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2CE3F9EC1DE4806D0078B0A7 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				2CE3F9ED1DE4808A0078B0A7 /* ProfileServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		A5DCDEBACB07618381A83DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C587EFD236670D0E85C71578 /* Pods_WebserviceSingletonAlamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C01A21D44230BB8D079143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				621577253530C5174EA7064C /* Pods-WebserviceSingletonAlamofire.debug.xcconfig */,
+				42ACE3C6846988C0F5CD17FA /* Pods-WebserviceSingletonAlamofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C0355C81DE31D3C002ACF45 /* WebserviceSingletonAlamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C0355DB1DE31D3C002ACF45 /* Build configuration list for PBXNativeTarget "WebserviceSingletonAlamofire" */;
+			buildPhases = (
+				B7122986B65D1921993FAC53 /* [CP] Check Pods Manifest.lock */,
+				2C0355C51DE31D3C002ACF45 /* Sources */,
+				2C0355C61DE31D3C002ACF45 /* Frameworks */,
+				2C0355C71DE31D3C002ACF45 /* Resources */,
+				5A054CA8D248FFF514354E5B /* [CP] Embed Pods Frameworks */,
+				313D536298848C8BCCB043F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebserviceSingletonAlamofire;
+			productName = WebserviceSingletonAlamofire;
+			productReference = 2C0355C91DE31D3C002ACF45 /* WebserviceSingletonAlamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C0355C11DE31D3C002ACF45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Pankaj;
+				TargetAttributes = {
+					2C0355C81DE31D3C002ACF45 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C0355C41DE31D3C002ACF45 /* Build configuration list for PBXProject "WebserviceSingletonAlamofire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C0355C01DE31D3C002ACF45;
+			productRefGroup = 2C0355CA1DE31D3C002ACF45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C0355C81DE31D3C002ACF45 /* WebserviceSingletonAlamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C0355C71DE31D3C002ACF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0355D71DE31D3C002ACF45 /* LaunchScreen.storyboard in Resources */,
+				2C0355D41DE31D3C002ACF45 /* Assets.xcassets in Resources */,
+				2C0355D21DE31D3C002ACF45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		313D536298848C8BCCB043F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebserviceSingletonAlamofire/Pods-WebserviceSingletonAlamofire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A054CA8D248FFF514354E5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebserviceSingletonAlamofire/Pods-WebserviceSingletonAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7122986B65D1921993FAC53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0355C51DE31D3C002ACF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0355E31DE31FF6002ACF45 /* NetworkManager.swift in Sources */,
+				2C0355CF1DE31D3C002ACF45 /* ViewController.swift in Sources */,
+				2C0355CD1DE31D3C002ACF45 /* AppDelegate.swift in Sources */,
+				2CE3F9EE1DE4808A0078B0A7 /* ProfileServices.swift in Sources */,
+				2C0549691DE5B9BA00ADAC9B /* String.swift in Sources */,
+				2CE3F9E61DE44B130078B0A7 /* Constant.swift in Sources */,
+				2CE3F9EA1DE44B830078B0A7 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C0355D01DE31D3C002ACF45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0355D11DE31D3C002ACF45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C0355D51DE31D3C002ACF45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0355D61DE31D3C002ACF45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C0355D91DE31D3C002ACF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C0355DA1DE31D3C002ACF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C0355DC1DE31D3C002ACF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621577253530C5174EA7064C /* Pods-WebserviceSingletonAlamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebserviceSingletonAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pankaj.WebserviceSingletonAlamofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA-D/Pankaj/Tutorials/Swift_3.0/Webservices/WebserviceSingletonAlamofire/WebserviceSingletonAlamofire/WebserviceSingletonAlamofire-Bridiging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C0355DD1DE31D3C002ACF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42ACE3C6846988C0F5CD17FA /* Pods-WebserviceSingletonAlamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebserviceSingletonAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pankaj.WebserviceSingletonAlamofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/DATA-D/Pankaj/Tutorials/Swift_3.0/Webservices/WebserviceSingletonAlamofire/WebserviceSingletonAlamofire/WebserviceSingletonAlamofire-Bridiging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0355C41DE31D3C002ACF45 /* Build configuration list for PBXProject "WebserviceSingletonAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0355D91DE31D3C002ACF45 /* Debug */,
+				2C0355DA1DE31D3C002ACF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C0355DB1DE31D3C002ACF45 /* Build configuration list for PBXNativeTarget "WebserviceSingletonAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0355DC1DE31D3C002ACF45 /* Debug */,
+				2C0355DD1DE31D3C002ACF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C0355C11DE31D3C002ACF45 /* Project object */;
+}
